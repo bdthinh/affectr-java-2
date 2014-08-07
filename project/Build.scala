@@ -7,7 +7,7 @@ import sbtbuildinfo.Plugin._
 object Build extends sbt.Build {
   lazy val buildVersion = "1.0.0"
 
-  lazy val root = Project(id = "affectr-java-light", base = file("."))
+  lazy val root = Project(id = "affectr-java-2", base = file("."))
     .settings(net.virtualvoid.sbt.graph.Plugin.graphSettings: _*)
     .settings(sbtassembly.Plugin.assemblySettings: _*)
     .settings(sbtbuildinfo.Plugin.buildInfoSettings: _*)

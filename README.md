@@ -21,7 +21,7 @@ The project is built with `SBT 0.12.2` using the following dependencies:
 ```
 $ sbt
 > compile
-> run -b http://api.theysay.io/v1 -u yourUserName -p yourPassWord"
+> run -b http://api.theysay.io/v1 -u yourUserName -p yourPassWord
 > exit
 ```
 
